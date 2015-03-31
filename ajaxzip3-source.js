@@ -149,7 +149,7 @@ AjaxZip3.callback = function(data){
             cursor = AjaxZip3.fstrt;
             if ( AjaxZip3.faddr.name == AjaxZip3.fstrt.name ) {
                 // 市区町村名＋町域名＋番地合体の場合
-                jaddr = jaddr + jstrt;
+                jaddr = jaddr + jarea + jstrt;
             } else if ( jstrt ) {
                 // 番地テキスト入力欄がある場合
                 AjaxZip3.fstrt.value = jstrt;
