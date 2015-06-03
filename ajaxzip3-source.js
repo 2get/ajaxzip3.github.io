@@ -215,6 +215,6 @@ AjaxZip3.zipjsonpquery = function(){
     document.getElementsByTagName("head").item(0).appendChild(scriptTag);
    };
 
-function zipdata(data){
+function $yubin(data){
     AjaxZip3.callback(data);
 };
