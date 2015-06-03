@@ -31,7 +31,7 @@
 
 AjaxZip3 = function(){};
 AjaxZip3.VERSION = '0.5';
-AjaxZip3.JSONDATA = 'https://ajaxzip3.github.io/zipdata';
+AjaxZip3.JSONDATA = 'https://yubinbango.github.io/yubinbango-data/data';
 AjaxZip3.CACHE = [];
 AjaxZip3.prev = '';
 AjaxZip3.nzip = '';
@@ -207,7 +207,7 @@ AjaxZip3.getElementByName = function ( elem, sibling ) {
 }
 
 AjaxZip3.zipjsonpquery = function(){
-    var url = AjaxZip3.JSONDATA+'/zip-'+AjaxZip3.nzip.substr(0,3)+'.js';
+    var url = AjaxZip3.JSONDATA+'/'+AjaxZip3.nzip.substr(0,3)+'.js';
     var scriptTag = document.createElement("script");
     scriptTag.setAttribute("type", "text/javascript");
     scriptTag.setAttribute("charset", "UTF-8");
